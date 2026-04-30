@@ -12,6 +12,7 @@ A production-grade two-tier web application deployed on Kubernetes (AWS EKS).
 - **Registry**: Amazon ECR
 
 ## Project Structure
+```
 flask-k8s/
 ├── app/
 │   ├── app.py              # Flask application
@@ -23,6 +24,7 @@ flask-k8s/
 ├── mysql-statefulset.yaml  # MySQL StatefulSet + Service
 ├── flask-deployment.yaml   # Flask Deployment + LoadBalancer
 └── flask-hpa.yaml          # Horizontal Pod Autoscaler
+```
 ## Features
 
 - Kubernetes Secrets for secure credential management
